@@ -1,0 +1,33 @@
+body > header {
+    background-color: rgb(187, 10, 10);
+    font-family: fantasy;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: -20px;
+}
+
+body > header > h3 {
+    line-height: 8px;
+}
+
+body > main > h1 {
+    background-color: green;
+    margin-left: -10px;
+    margin-right: -20px;
+    text-indent: 10px;
+}
+
+main > ul {
+    list-style: none;
+}
+
+a {
+    color:black
+
+}
+
+a:hover {
+    color: green;
+}

@@ -4,16 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     <title>{{ title }}</title>
 </head>
 
 <body>
-    <h1>My Order</h1>
-    <ul>
-        <li>
-            <p>{{ order.customer_name }} - {{ order.order_date }} - {{ order.quantity }} - {{ order.topping }}</p>
-        </li>
-    </ul>
+    <header>
+        <h1>Python Pizzas</h1>
+        <h3>Mama Mia that'sa gooda pizza</h3>
+    </header>
+
+    <main>
+        <h1>My Order</h1>
+        <ul>
+            <li>
+                <p>{{ order.customer_name }} - {{ order.order_date }} - {{ order.quantity }} - {{ order.topping }}</p>
+            </li>
+        </ul>
+    </main>
 </body>
 
 </html>
